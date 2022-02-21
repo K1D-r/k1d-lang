@@ -1,7 +1,7 @@
 import sys
 
 
-class Umjunsik:
+class k1d:
     def __init__(self):
         self.data = [0]*256
 
@@ -55,7 +55,7 @@ class Umjunsik:
         recode = ''
         spliter = '\n' if '\n' in code else '~'
         code = code.rstrip().split(spliter)
-        if check and (code[0].replace(" ","") != '어떻게' or code[-1] != '이 사람이름이냐ㅋㅋ' or not code[0].startswith('어떻게')):
+        if check and (code[0].replace(" ","") != '어떻게' or code[-1] != '이 언어이름이냐ㅋㅋ' or not code[0].startswith('어떻게')):
             raise SyntaxError('어떻게 이게 키랭이냐!')
         index = 0
         error = 0
